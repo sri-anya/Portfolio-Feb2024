@@ -1,10 +1,15 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 const Contact = () => {
   return (
-    <div className='w-full h-[87vh] bg-[#141414] text-white'>
+    <div className='bg-[#141414] h-screen w-full'>
+    <NavBar/>
+    <div className=' text-white'>
       Contact
     </div>
+    </div>
+    
   )
 }
 

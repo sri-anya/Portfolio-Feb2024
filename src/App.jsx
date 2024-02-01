@@ -12,10 +12,11 @@ import Blogs from './Blogs';
 import Projects from './Projects';
 import Contact from './Contact';
 
+
 export default function App() {
   return (
-    <>
-    <NavBar/>
+    <div>
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -24,7 +25,7 @@ export default function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </>
+    </div>
     
   )
 }
