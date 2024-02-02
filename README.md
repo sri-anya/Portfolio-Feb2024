@@ -4,3 +4,4 @@ startup commands:
 tailwind, google fonts
 google icons
 `npm install react-router-dom`
+used typed js

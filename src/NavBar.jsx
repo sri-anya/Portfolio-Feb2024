@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
-    <div className='sticky top-0'>
-      <nav className='bg-[#565656] w-full font-bold text-lg flex justify-between '>
+    <div className='sticky top-0 z-10'>
+      <nav className='bg-[#565656] dark:bg-white w-full font-bold text-lg flex justify-between '>
 
         <ul className='flex gap-5 text-[#141414] '>
-          <Link to="http://localhost:5173/" className='bg-white mx-3 my-3 flex justify-center items-center px-5 cursor-pointer '><img src="src\assets\favicon-32x32.png" className="invert" alt="logo" /></Link>
-          <Link className='px-5 py-8 cursor-pointer' to="/about">About</Link>
-          <Link className='px-5 py-8 cursor-pointer' to="/experience">Experience</Link>
-          <Link className='px-5 py-8 cursor-pointer' to="/blogs" >Blogs</Link>
-          <Link className='px-5 py-8 cursor-pointer' to="/projects" >Projects</Link>
-          <Link className='px-5 py-8 cursor-pointer' to="/contact">Contact</Link>
+          <Link to="/" className='bg-white mx-3 my-3 flex justify-center items-center px-5 cursor-pointer rounded-2xl'><img src="src\assets\favicon-32x32.png" className="invert hover:animate-spin" alt="logo" /></Link>
+          <Link className='px-5 py-8 m-auto cursor-pointer hover:bg-[#6c6c6c]' to="/about">About</Link>
+          <Link className='px-5 py-8 m-auto cursor-pointer hover:bg-[#6c6c6c]' to="/experience">Experience</Link>
+          <Link className='px-5 py-8 m-auto cursor-pointer hover:bg-[#6c6c6c]' to="/blogs" >Blogs</Link>
+          <Link className='px-5 py-8 m-auto cursor-pointer hover:bg-[#6c6c6c]' to="/projects" >Projects</Link>
+          <Link className='px-5 py-8 m-auto cursor-pointer hover:bg-[#6c6c6c]' to="/contact">Contact</Link>
 
 
         </ul>
