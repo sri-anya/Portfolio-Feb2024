@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import NavBar from './NavBar'
 import { useNavigate } from 'react-router-dom'
+import Footer from './Footer';
 
 const About = () => {
   const navigate = useNavigate();
@@ -63,7 +64,7 @@ const About = () => {
             <div id="1" ref={div1Ref} className="1  flex flex-col gap-2 items-center p-5 hover:bg-[#6c6c6c] rounded-lg">
               <h2 className='font-extrabold text-[#FBA92C]'>A little about Me!</h2>
               <img className="rounded-full" src="src\assets\favicon-32x32.png" alt="" />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem nam blanditiis commodi ipsa maxime fuga doloremque numquam debitis. Explicabo id omnis debitis odio! Ullam modi qui quasi minima fugiat ducimus delectus, eveniet officiis nihil.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem nam blanditiis commodi ipsa maxime fuga doloremque numquam debitis. Explicabo id omnis debitis odio! Ullam modi qui quasi minima fugiat ducimus delectus, eveniet officiis nihi Lorem3456.</p>
+              <p>I’m a front-end developer from Vietnam. My coding journey began early this year when I started learning to code with Scrimba. So far I've learned and coded several projects with HTML/CSS3, JavaScript, ReactJS, and TailwindCSS. I’m eager for an opportunity to kickstart my front-end career while making a positive contribution to the world of tech.</p>
             </div>
             <div id="2" ref={div2Ref} className="2 w-full p-5 hover:bg-[#6c6c6c] rounded-lg space-y-10">
             <h2 className='font-extrabold text-center text-[#FBA92C]'>Education and Certifications</h2>
@@ -122,7 +123,8 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className='flex gap-6  justify-center '>
+
+        <div className='flex gap-6  justify-center'>
           <span className='bg-[#FBA92C] separator h-1 w-96'></span>
           <span className="text-[#FBA92C] material-symbols-outlined cursor-pointer animate-bounce" onClick={() => {
 

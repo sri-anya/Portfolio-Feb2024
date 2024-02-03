@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Projects.css"
+
 import NavBar from './NavBar'
 import { useNavigate } from 'react-router-dom'
 
@@ -8,7 +8,9 @@ const Projects = () => {
   return (
     <div className='bg-[#141414] w-full h-auto  max-h-full overflow-y-scroll no-scrollbar'>
       <NavBar />
+      <h1 className='m-5 text-3xl text-white text-center'>Projects</h1>
       <div className=' text-[#141414] flex  flex-wrap gap-10 p-10 relative  '>
+      
         <div className="group relative flex flex-col items-center justify-center border-[4px] h-auto w-[30%] border-[#565656] rounded-md ">
           <div className="cover cursor-pointer  "><img className='overflow-auto' src="src\assets\pexels-pixabay-270404.jpg" alt="project image" />
             <div className="details cursor-pointer bg-[#FBA92C]  w-full h-full font-black text-3xl py-2
