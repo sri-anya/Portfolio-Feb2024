@@ -136,6 +136,7 @@ const About = () => {
           <span className='bg-[#FBA92C] h-1 w-96'></span>
         </div>
       </div>
+      
 
 
     </div>
