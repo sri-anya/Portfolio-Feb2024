@@ -48,7 +48,7 @@ const About = () => {
   };
 
   return (
-    <div className='bg-[#141414] h-auto w-full'>
+    <div className='bg-[#141414] max-h-full h-auto w-full overflow-y-scroll no-scrollbar'>
       <NavBar />
       <div className=' text-white flex flex-col '>
 
@@ -124,7 +124,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className='flex gap-6  justify-center'>
+        <div className=' flex gap-6 pt-20 sticky bottom-10 justify-center'>
           <span className='bg-[#FBA92C] separator h-1 w-96'></span>
           <span className="text-[#FBA92C] material-symbols-outlined cursor-pointer animate-bounce" onClick={() => {
 
