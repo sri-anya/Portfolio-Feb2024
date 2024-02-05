@@ -35,9 +35,7 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
   const [darkMode, setDarkMode] = useState(false);
 
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-  };
+  
 
   return (
     <div className={`sticky top-0 z-10 ${darkMode ? 'dark' : ''}`}>
@@ -57,10 +55,10 @@ const NavBar = () => {
           <Link className='px-5 py-3 m-auto cursor-pointer hover:bg-[#6c6c6c]' to="/contact">Contact</Link>
         </ul>
 
-        <div className="mode cursor-pointer hidden md:block" onClick={toggleDarkMode}>
+        {/* <div className="mode cursor-pointer hidden md:block" >
           <img className={`  invert px-5 py-3 ${darkMode ? 'dark:invert' : ''}`} src="src\assets\light_mode_FILL0_wght400_GRAD0_opsz24.svg" alt="mode" />
         </div>
-        
+         */}
         
       </nav >
 
