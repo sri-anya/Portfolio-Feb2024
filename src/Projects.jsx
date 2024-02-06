@@ -11,6 +11,12 @@ const Projects = () => {
       codeLink: "https://github.com/sri-anya/Portfolio-Feb2024",
       technologies: ["React", "Vite", "Tailwind", "HTML", "CSS", "JavaScript"],
     },
+    {
+      imageSrc: "https://raw.githubusercontent.com/sri-anya/SpotifyClone/main/assets/images/demoScreenshot.png",
+      demoLink: "http://spotifybyaastha.freewebhostmost.com/",
+      codeLink: "https://github.com/sri-anya/SpotifyClone",
+      technologies: ["HTML", "CSS", "JavaScript"],
+    },
 
     // Add more projects as needed
   ];

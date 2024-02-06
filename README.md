@@ -42,6 +42,17 @@ Welcome to my responsive portfolio! This website showcases my skills, projects, 
 
 Customize the portfolio by updating the content, adding your projects, and modifying the styles.
 
+## Badges
+
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
+[![HTML](https://img.shields.io/badge/HTML-5-orange.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/CSS-3-blue.svg)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-2.x-blueviolet.svg)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-2.x-green.svg)](https://vitejs.dev/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![React](https://img.shields.io/badge/React-17.x-blue.svg)](https://reactjs.org/)
+
+
 ## Contributing
 
 If you'd like to contribute to the project, please follow the [contribution guidelines](CONTRIBUTING.md).
