@@ -11,11 +11,11 @@ const Home = () => {
 
                 <div className='first font-bold text-4xl md:text-9xl flex flex-col items-center gap-4 md:flex-row md:items-center md:gap-20'>
                     <span className='animate-pulse'>Aastha</span>
-                    <span className='hidden md:block'><img width='100' src='src\assets\developer_mode_FILL0_wght600_GRAD0_opsz24 1.png' alt='' /></span>
+                    <span className='hidden md:block'><img width='100' src='/assets/developer_mode_FILL0_wght600_GRAD0_opsz24 1.png' alt='' /></span>
                 </div>
 
                 <div className='second font-bold text-4xl md:text-9xl flex flex-col items-center gap-4 md:flex-row md:items-center md:gap-20'>
-                    <span className='hidden md:block'><img width='100' src='src\assets\developer_mode_tv_FILL0_wght600_GRAD0_opsz24 1.png' alt='' /></span>
+                    <span className='hidden md:block'><img width='100' src='/assets/developer_mode_tv_FILL0_wght600_GRAD0_opsz24 1.png' alt='' /></span>
                     <span className='animate-pulse'>Saxena</span>
                 </div>
 

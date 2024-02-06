@@ -19,9 +19,9 @@ const Contact = () => {
 
         <div className="waysToContact flex flex-col items-center md:flex-row w-[90%] md:w-[70%] justify-around gap-5">
           <div className="getInTouch space-y-3 flex flex-col items-center">
-            <img width="50" height="50" className="invert" src="src\assets\telegram.png" alt="" />
+            <img width="50" height="50" className="invert" src="/assets/telegram.png" alt="" />
             <h1 className='text-2xl font-medium'>Get In Touch!</h1>
-            <p className='text-wrap'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, possimus.</p>
+            <p className='text-wrap'>Have an idea to discuss or just want to connect!</p>
             <button className='px-6 py-2 rounded-lg bg-[#565656] font-medium hover:animate-bounce'>
               <a href="mailto:aasthasaxena100@gmail.com">SAY HELLO!</a>
 
@@ -29,9 +29,9 @@ const Contact = () => {
           </div>
           <div className="icons ">
             <ul className='flex gap-4'>
-              <li><img src="src\assets\linkedin-02.svg" alt="LinkedIn" /></li>
-              <li><img width="24" height="24" src="src\assets\codepen (1).svg" alt="CodePen" /></li>
-              <li><img src="src\assets\github-01.svg" alt="GitHub" /></li>
+              <li><img src="/assets/linkedin-02.svg" alt="LinkedIn" /></li>
+              <li><img width="24" height="24" src="/assets/codepen (1).svg" alt="CodePen" /></li>
+              <li><img src="/assets/github-01.svg" alt="GitHub" /></li>
             </ul>
           </div>
         </div>
