@@ -4,6 +4,29 @@ import { useNavigate } from 'react-router-dom';
 
 const Experience = () => {
   const navigate = useNavigate();
+  const technologies = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Python",
+    "Node.js",
+    "Express",
+    "BootStrap",
+    "Tailwind",
+    "MangoDB",
+    "SQL"
+    // Add more technologies as needed
+  ];
+
+  const tools = ["Git",
+    "GitHub",
+    "Figma",
+    "Adobe XD",
+    "Python Notebooks",
+    "Vite",
+    "Google Colab",
+    "Wordpress"]
 
   return (
     <div className='bg-[#141414] max-h-full h-auto w-full overflow-y-scroll no-scrollbar'>
@@ -14,31 +37,21 @@ const Experience = () => {
           <div className="left md:col-span-2">
             <h1 className='text-center font-extrabold text-[#FBA92C]'>Some technologies I've worked On</h1>
             <div className="technologies flex flex-wrap items-center justify-center gap-5 p-4 md:p-20">
+              {technologies.map((tech, index) => (
+                <div key={index} className="tech hover:animate-bounce w-20 h-20 rounded-full border-solid border-[4px] border-[#565656] flex justify-center items-center font-bold">
+                  {tech}
+                </div>
+              ))}
 
-              <div className="tech hover:animate-bounce w-20 h-20 rounded-full border-solid border-[4px] border-[#565656] flex justify-center items-center font-bold">HTML</div>
-              <div className="tech hover:animate-bounce w-20 h-20 rounded-full border-solid border-[4px] border-[#565656] flex justify-center items-center font-bold">CSS</div>
-              <div className="tech hover:animate-bounce w-20 h-20 rounded-full border-solid border-[4px] border-[#565656] flex justify-center items-center font-bold">JavaScript</div>
-              <div className="tech hover:animate-bounce w-20 h-20 rounded-full border-solid border-[4px] border-[#565656] flex justify-center items-center font-bold">Python</div>
-              <div className="tech hover:animate-bounce w-20 h-20 rounded-full border-solid border-[4px] border-[#565656] flex justify-center items-center font-bold">React</div>
-              <div className="tech hover:animate-bounce w-20 h-20 rounded-full border-solid border-[4px] border-[#565656] flex justify-center items-center font-bold">BootStrap</div>
-              <div className="tech hover:animate-bounce w-20 h-20 rounded-full border-solid border-[4px] border-[#565656] flex justify-center items-center font-bold">Tailwind</div>
-              <div className="tech hover:animate-bounce w-20 h-20 rounded-full border-solid border-[4px] border-[#565656] flex justify-center items-center font-bold">Express</div>
-              <div className="tech hover:animate-bounce w-20 h-20 rounded-full border-solid border-[4px] border-[#565656] flex justify-center items-center font-bold">SQL</div>
-              <div className="tech hover:animate-bounce w-20 h-20 rounded-full border-solid border-[4px] border-[#565656] flex justify-center items-center font-bold">MangoDB</div>
 
             </div>
             <h1 className='text-center font-extrabold text-[#FBA92C]'>Tools</h1>
-            <div className="technologies flex flex-wrap items-center justify-center gap-5 px-4 py-3 md:px-20 md:py-3">
+            <div className="tools flex flex-wrap items-center justify-center gap-5 px-4 py-3 md:px-20 md:py-3">
               <ul className='grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-x-20'>
+                {tools.map((tool, index) => (<li key={index}>{tool}</li>)
 
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>Figma</li>
-                <li>Adobe XD</li>
-                <li>Python Notebooks</li>
-                <li>Vite</li>
-                <li>Google Colab</li>
-                <li>Wordpress</li>
+                )}
+
 
               </ul>
             </div>
@@ -58,9 +71,9 @@ const Experience = () => {
               </div>
             </div>
             <div className="card w-full md:w-[400px] flex flex-col gap-5 border border-solid rounded-lg bg-[#212121] border-[#FBA92C] p-3">
-              
+
               <div className='flex flex-col gap-2'>
-              <div className='flex justify-between'>
+                <div className='flex justify-between'>
                   <div className="position">Software Engineer</div>
                   <div className="time">2014-2016</div>
                 </div>
