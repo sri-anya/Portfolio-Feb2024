@@ -87,7 +87,7 @@ const Experience = () => {
 
         <div className={`flex flex-col items-center gap-6 pt-20 sticky bottom-10 justify-center md:flex-row`}>
           <span className={`bg-[#FBA92C] separator h-1 w-96 md:w-96`}></span>
-          <span className={`text-[#FBA92C] material-symbols-outlined cursor-pointer animate-bounce`} onClick={() => navigate('/projects')}>
+          <span className={`text-[#FBA92C] material-symbols-outlined cursor-pointer animate-bounce`} onClick={() => navigate('/blogs')}>
             expand_more
           </span>
           <span className={`bg-[#FBA92C] h-1 w-96 md:w-96`}></span>

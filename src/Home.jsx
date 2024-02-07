@@ -21,7 +21,7 @@ const Home = () => {
 
                 <div className={`flex flex-col items-center gap-6 pt-10 md:pt-20 sticky bottom-10 justify-center md:flex-row`}>
                     <span className={`bg-[#FBA92C] separator h-1 w-20 md:w-96`}></span>
-                    <span className={`text-[#FBA92C] material-symbols-outlined cursor-pointer animate-bounce`} onClick={() => navigate('/projects')}>
+                    <span className={`text-[#FBA92C] material-symbols-outlined cursor-pointer animate-bounce`} onClick={() => navigate('/about')}>
                         expand_more
                     </span>
                     <span className={`bg-[#FBA92C] h-1 w-20 md:w-96`}></span>

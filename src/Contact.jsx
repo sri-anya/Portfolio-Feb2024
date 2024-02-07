@@ -30,8 +30,8 @@ const Contact = () => {
           <div className="icons ">
             <ul className='flex gap-4'>
               <li><img src="/assets/linkedin-02.svg" alt="LinkedIn" /></li>
-              <li><img width="24" height="24" src="/assets/codepen (1).svg" alt="CodePen" /></li>
-              <li><img src="/assets/github-01.svg" alt="GitHub" /></li>
+              <li><a href="https://codepen.io/AasthaSaxena" target="#"><img width="24" height="24" src="/assets/codepen (1).svg" alt="CodePen" /></a></li>
+              <li><a href="https://github.com/sri-anya" target="#"><img src="/assets/github-01.svg" alt="GitHub" /></a></li>
             </ul>
           </div>
         </div>

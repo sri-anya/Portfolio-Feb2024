@@ -7,15 +7,45 @@ const Projects = () => {
   const projects = [
     {
       imageSrc: "/assets/portfolioProject.png",
-      demoLink: "https://peaceful-piroshki-0b71e3.netlify.app/",
+      demoLink: "https://aasthasaxena.netlify.app/",
       codeLink: "https://github.com/sri-anya/Portfolio-Feb2024",
-      technologies: ["React", "Vite", "Tailwind", "HTML", "CSS", "JavaScript"],
+      technologies: ["React", "Vite", "Tailwind", "HTML", "CSS", "JavaScript", "Figma"],
     },
     {
       imageSrc: "https://raw.githubusercontent.com/sri-anya/SpotifyClone/main/assets/images/demoScreenshot.png",
       demoLink: "http://spotifybyaastha.freewebhostmost.com/",
       codeLink: "https://github.com/sri-anya/SpotifyClone",
-      technologies: ["HTML", "CSS", "JavaScript"],
+      technologies: ["HTML", "CSS", "JavaScript", "Responsive"],
+    },
+    {
+      imageSrc: "https://github.com/sri-anya/NetflixHomePageClone/blob/main/assets/images/Screenshot%202024-01-10%20000309.png?raw=true",
+      demoLink: "https://famous-griffin-8f3c3b.netlify.app/",
+      codeLink: "https://github.com/sri-anya/NetflixHomePageClone",
+      technologies: ["HTML", "CSS", " VS Code", "Responsive"],
+    },
+    {
+      imageSrc: "/assets/twitterCLone.png",
+      demoLink: "https://xclonebyaastha.netlify.app/",
+      codeLink: "https://github.com/sri-anya/TwitterLandingPageClone",
+      technologies: ["HTML", "CSS", " Tailwind", "Responsive"],
+    },
+    {
+      imageSrc: "/assets/snakkz.png",
+      demoLink: "https://www.figma.com/proto/5GizRgOskbO2ZfCko4jrxx/Wireframes_project1?page-id=109%3A4&node-id=111-9&viewport=241%2C48%2C0.66&scaling=scale-down&starting-point-node-id=110%3A5",
+      codeLink: "https://www.aasthasaxena.com/snakkz",
+      technologies: ["Figma", "Prototyping", "Wireframing", "User Research", "Responsive", "UX/UI"],
+    },
+    {
+      imageSrc: "/assets/mLookUp.png",
+      demoLink: "",
+      codeLink: "https://www.aasthasaxena.com/mlookup",
+      technologies: ["Adobe XD", "Prototyping", "Wireframing", "User Research", "Responsive", "UX/UI"],
+    },
+    {
+      imageSrc: "/assets/donateToShape.png",
+      demoLink: "https://www.figma.com/proto/5GizRgOskbO2ZfCko4jrxx/Wireframes_project1?page-id=109%3A4&node-id=111-9&viewport=241%2C48%2C0.66&scaling=scale-down&starting-point-node-id=110%3A5",
+      codeLink: "https://www.aasthasaxena.com/donatetoshape",
+      technologies: ["Figma", "Prototyping", "Wireframing", "User Research", "Responsive", "UX/UI"],
     },
 
     // Add more projects as needed
@@ -32,7 +62,7 @@ const Projects = () => {
             <div className="cover cursor-pointer relative overflow-hidden">
               <img className='overflow-auto object-fill' src={project.imageSrc} alt="project image" />
               <div className="details cursor-pointer bg-[#FBA92C] w-full h-full font-black text-xl py-2 absolute bottom-0 opacity-0 transition-all duration-500 ease-in-out invisible group-hover:visible group-hover:opacity-80 group-hover:bottom-0 flex justify-center items-end">
-                <div className="demo mx-10 hover:text-2xl"><a href={project.demoLink} target="#">View demo</a></div>
+                {project.demoLink ? <div className="demo mx-10 hover:text-2xl"><a href={project.demoLink} target="#">View demo</a></div>:""}
                 <div className="code mx-10 hover:text-2xl"><a href={project.codeLink} target="#">View code</a></div>
               </div>
               <div className="flex flex-wrap gap-3 badge absolute top-0 right-0 m-2 p-2 text-white opacity-0 transition-all duration-500 ease-in-out invisible group-hover:visible group-hover:opacity-80">
