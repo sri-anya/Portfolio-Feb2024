@@ -8,7 +8,13 @@ const Blogs = () => {
       imageSrc: "/assets/webhostmostblog.png",
       title: "Host your website for free using webhostmost.com",
       summary: "Hosting for free might boost your confidence when you are still learning and exploring hosting your websites. Checkout webhostmost.com which helps in doing free hosting.",
-      readMoreLink: "https://medium.com/@aasthasaxena100/how-to-host-your-website-for-free-on-webhostmost-com-b6486d35f0e3",
+      readMoreLink: "https://medium.com/@aasthasaxenatech/how-to-host-your-website-for-free-on-webhostmost-com-b6486d35f0e3",
+    },
+    {
+      imageSrc: "/assets/reactimageblog.jpg",
+      title: "Deploying React projects with assets",
+      summary: "In Node.js projects, especially those using frameworks like Express, the “public” folder is commonly used to store static assets, including images, stylesheets, and client-side JavaScript files. ",
+      readMoreLink: "https://medium.com/@aasthasaxenatech/deploying-react-projects-with-assets-and-images-c6f52212baad",
     },
     // Add more blog posts as needed
   ];

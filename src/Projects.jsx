@@ -6,6 +6,12 @@ const Projects = () => {
   const navigate = useNavigate()
   const projects = [
     {
+      imageSrc: "/assets/taskManager.png",
+      demoLink: "https://task-manager-create.glitch.me/",
+      codeLink: "https://github.com/sri-anya/TaskManagerUsingExpress",
+      technologies: ["Express", "JavaScript", "Ejs", "Bootstrap", "Responsive", "Vite"],
+    },
+    {
       imageSrc: "/assets/portfolioProject.png",
       demoLink: "https://aasthasaxena.netlify.app/",
       codeLink: "https://github.com/sri-anya/Portfolio-Feb2024",
@@ -47,6 +53,7 @@ const Projects = () => {
       codeLink: "https://www.aasthasaxena.com/donatetoshape",
       technologies: ["Figma", "Prototyping", "Wireframing", "User Research", "Responsive", "UX/UI"],
     },
+    
 
     // Add more projects as needed
   ];

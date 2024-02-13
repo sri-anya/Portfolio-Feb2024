@@ -12,9 +12,10 @@ const Experience = () => {
     "Python",
     "Node.js",
     "Express",
+    "Ejs",
     "BootStrap",
     "Tailwind",
-    "MangoDB",
+    "MongoDB",
     "SQL"
     // Add more technologies as needed
   ];
