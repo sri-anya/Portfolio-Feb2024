@@ -9,7 +9,7 @@ const Projects = () => {
       imageSrc: "/assets/taskManager.png",
       demoLink: "https://task-manager-create.glitch.me/",
       codeLink: "https://github.com/sri-anya/TaskManagerUsingExpress",
-      technologies: ["Express", "JavaScript", "Ejs", "Bootstrap", "Responsive", "Vite"],
+      technologies: ["ExpressJS", "JavaScript", "Ejs", "Bootstrap", "Responsive", "Vite"],
     },
     {
       imageSrc: "/assets/portfolioProject.png",
