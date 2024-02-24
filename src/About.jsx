@@ -65,7 +65,7 @@ const About = () => {
             <div id='1' ref={div1Ref} className='1 flex flex-col gap-2 items-center p-5 hover:bg-[#6c6c6c] rounded-lg'>
               <h2 className='font-extrabold text-[#FBA92C]'>A little about Me!</h2>
               <img className='rounded-full' src='/assets/favicon-32x32.png' alt='' />
-              <p>Hi, I'm <b className='text-rose-800'>Aastha</b>, an aspiring web developer skilled in HTML, CSS, JavaScript, React, Tailwind CSS, Express, Node.js, and Flask. From front-end finesse to robust back-end solutions, I bring a versatile skill set to the table. My passion lies in making a positive impact in the tech world. Eager to kickstart my web developer career, I thrive on transforming ideas into captivating digital experiences. Let's connect and explore the endless possibilities together!</p>
+              <p>Hi, I'm <b className='text-rose-800'>Aastha</b>, an aspiring web developer skilled in HTML, CSS, JavaScript, React, Tailwind CSS, Express, Node.js. From front-end finesse to robust back-end solutions, I bring a versatile skill set to the table. My passion lies in making a positive impact in the tech world. Eager to kickstart my web developer career, I thrive on transforming ideas into captivating digital experiences. Let's connect and explore the endless possibilities together!</p>
             </div>
             <div id='2' ref={div2Ref} className='2 w-full p-5 hover:bg-[#6c6c6c] rounded-lg space-y-10'>
               <h2 className='font-extrabold text-center text-[#FBA92C]'>Education and Certifications</h2>

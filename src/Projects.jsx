@@ -24,6 +24,18 @@ const Projects = () => {
       technologies: ["HTML", "CSS", "JavaScript", "Responsive"],
     },
     {
+      imageSrc: "/assets/goalgrid.png",
+      demoLink: "https://goalgrid-todolist.netlify.app/",
+      codeLink: "https://github.com/sri-anya/todoList",
+      technologies: ["React", "Vite", "Tailwind", "HTML", "CSS", "JavaScript","react-router-dom"],
+    },
+    {
+      imageSrc: "/assets/shoppingListReact.png",
+      demoLink: "https://basicshoppinglistreact.netlify.app/",
+      codeLink: "https://github.com/sri-anya/ShoppingList",
+      technologies: ["React", "Vite", "Tailwind", "HTML", "CSS", "JavaScript"],
+    },
+    {
       imageSrc: "https://github.com/sri-anya/NetflixHomePageClone/blob/main/assets/images/Screenshot%202024-01-10%20000309.png?raw=true",
       demoLink: "https://famous-griffin-8f3c3b.netlify.app/",
       codeLink: "https://github.com/sri-anya/NetflixHomePageClone",

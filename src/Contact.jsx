@@ -13,7 +13,7 @@ const Contact = () => {
         <div className="h-36 w-[90%] md:w-[70%] m-4 md:m-20 rounded-lg bg-gradient-to-r from-[#FB982C] to-[#565656] flex justify-center flex-col items-center gap-5">
           <h1 className='text-2xl font-bold'>Resume</h1>
           <button className='px-6 py-2 rounded-lg bg-[#565656] hover:bg-[#141414] font-medium'>
-            GRAB A COPY!
+            <a href="https://maroon-dina-87.tiiny.site/" target="#">GRAB A COPY!</a>
           </button>
         </div>
 
@@ -29,7 +29,7 @@ const Contact = () => {
           </div>
           <div className="icons ">
             <ul className='flex gap-4'>
-              <li><img src="/assets/linkedin-02.svg" alt="LinkedIn" /></li>
+              <li><a href="https://www.linkedin.com/in/aastha-saxena1/" target="#"><img src="/assets/linkedin-02.svg" alt="LinkedIn" /></a></li>
               <li><a href="https://codepen.io/AasthaSaxena" target="#"><img width="24" height="24" src="/assets/codepen (1).svg" alt="CodePen" /></a></li>
               <li><a href="https://github.com/sri-anya" target="#"><img src="/assets/github-01.svg" alt="GitHub" /></a></li>
             </ul>
